@@ -43,7 +43,7 @@ setfacl -m u:LisaP:rwx admin
 usermod -aG admingroup AdamA 
 usermod -aG admingroup LisaP
 
-# Set ACLs to grant specific users access to the market directory.
+# Set ACLs to grant specific users access to the market directory. a
 setfacl -m u:PeterP:rwx market
 setfacl -m u:LisaP:rwx market
 
